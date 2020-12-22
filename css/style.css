@@ -56,17 +56,28 @@ a {
 /*=============/Header==============*/
 
 /*=============Лозунг==============*/
-.hero-background {
+.hero {
   background: #2f303a;
+  text-align: center;
+  /* border: 2px solid green; */
+  /* padding-bottom: 280px; */
+  min-height: 600px;
+  padding-top: 200px;
+  box-sizing: border-box;
 }
 .hero-title {
+  margin: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-light);
+  /* padding-top: 200px; */
+  /* border: 2px solid rgb(0, 41, 128); */
+  width: 696px;
+  min-height: 120px;
+  margin: auto;
 }
 
 .button,
@@ -74,10 +85,20 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-light);
+  background-color: var(--hover-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  min-height: 50px;
+  width: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
 }
+
 /*=============/Лозунг==============*/
 
 /*=============About==============*/
@@ -134,7 +155,10 @@ a {
 /*=============/Наша команда==============*/
 
 /*=============/footer==============*/
-.hero-background .logo {
+.footer {
+  background: #2f303a;
+}
+.footer .logo {
   color: var(--color-light);
 }
 .address .map,
