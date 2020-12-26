@@ -18,6 +18,14 @@ a {
 
 .list-no-style {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  padding: 100px 15px;
+  margin: auto;
 }
 
 /*=============/Общие==============*/
@@ -33,26 +41,51 @@ a {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
+
+  margin-right: 90px;
 }
 
 .logo-color {
   color: var(--hover-accent);
 }
 
-.naviganion,
-.naviganion:visited {
+.navigation,
+.navigation:visited {
   font-weight: 500;
   line-height: 1.1428;
   letter-spacing: 0.02em;
   color: var(--fonts-accent-color);
 }
 
-.naviganion:hover,
-.naviganion:focus,
+.navigation:hover,
+.navigation:focus,
 .list-no-style .current {
   color: var(--hover-accent);
 }
 
+.navigation .container {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.main-nav,
+.site-nav,
+.address-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:first-child) {
+  margin-left: 50px;
+}
+.address-nav {
+  margin-left: auto;
+}
+.address-nav .item:not(:first-child) {
+  margin-left: 50px;
+}
+.main-nav {
+  align-items: center;
+}
 /*=============/Header==============*/
 
 /*=============Лозунг==============*/
@@ -101,6 +134,9 @@ a {
 /*=============/Лозунг==============*/
 
 /*=============About==============*/
+.about {
+  background: green;
+}
 .about-title {
   font-weight: bold;
   line-height: 1.1428;
@@ -117,6 +153,13 @@ a {
 /*=============/About==============*/
 
 /*=============Деятельность==============*/
+.work {
+  background: red;
+}
+.work .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .work-title {
   font-weight: bold;
   font-size: 36px;
@@ -124,6 +167,9 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--fonts-accent-color);
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 /*=============/Деятельность==============*/
 
@@ -137,9 +183,9 @@ a {
   color: var(--fonts-accent-color);
 }
 .team {
+  background: #f5f4fa;
   font-size: 16px;
   line-height: 1.1875;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -178,6 +224,7 @@ a {
   color: var(--color-light);
   opacity: 0.6;
 }
+
 /*=============/footer==============*/
 
 /*=============Portfolio.html==============*/
