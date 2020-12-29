@@ -135,7 +135,7 @@ a {
 
 /*=============About==============*/
 .about {
-  background: green;
+  background: rgb(165, 204, 165);
 }
 .about-title {
   font-weight: bold;
@@ -149,6 +149,17 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-font-color);
+}
+
+.about-flex {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.about-item:not(:first-child) {
+  /* padding-left: 30px; */
+}
+.about-flex .about-item {
+  /* flex-basis: calc(100% / 4); */
 }
 /*=============/About==============*/
 
