@@ -14,45 +14,49 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
-      <nav>
+    <header class="navigation">
+      <div class="container main-nav">
         <a href="./index.html" class="logo"
           ><span class="logo-color">Web</span>Studio</a
         >
-        <ul class="list-no-style">
-          <li><a href="./index.html" class="navigation">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" class="current navigation">Портфолио</a>
+        <nav>
+          <ul class="list-no-style site-nav">
+            <li class="item">
+              <a href="./index.html" class="navigation">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="current navigation">Портфолио</a>
+            </li>
+            <li class="item"><a href="#" class="navigation">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="list-no-style address-nav">
+          <li class="item">
+            <a href="mailto:info@example.com" class="navigation"
+              >info@example.com</a
+            >
           </li>
-          <li><a href="#" class="navigation">Контакты</a></li>
+          <li class="item">
+            <a href="tel:+380991111111" class="navigation">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="list-no-style">
-        <li>
-          <a href="mailto:info@example.com" class="navigation"
-            >info@example.com
-          </a>
-        </li>
-        <li>
-          <a href="tel:+380991111111" class="navigation">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- /Шапка сайта -->
-    <main>
+    <main class="container">
       <nav>
         <ul class="list-no-style menu">
-          <li><a href="#" class="menu-list">Все</a></li>
-          <li><a href="#" class="menu-list">Веб-сайты</a></li>
-          <li><a href="#" class="menu-list">Приложения</a></li>
-          <li><a href="#" class="menu-list">Дизайн</a></li>
-          <li><a href="#" class="menu-list">Маркетинг</a></li>
+          <li class="menu-item"><a href="#" class="menu-list">Все</a></li>
+          <li class="menu-item"><a href="#" class="menu-list">Веб-сайты</a></li>
+          <li class="menu-item"><a href="#" class="menu-list">Приложения</a></li>
+          <li class="menu-item"><a href="#" class="menu-list">Дизайн</a></li>
+          <li class="menu-item"><a href="#" class="menu-list">Маркетинг</a></li>
         </ul>
       </nav>
       <!-- Портфолио -->
       <section>
-        <ul class="list-no-style">
-          <li>
+          <ul class="list-no-style flex-portfolio">
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/tehnokrayk.jpg"
               alt="Технокряк"
@@ -60,9 +64,9 @@
               height="294"
             />
             <h3 class="products-title">Технокряк</h3>
-            <p <h3 class="products-text">Веб-сайт</p>
+            <p class="products-text">Веб-сайт</p>
           </li>
-          <li>
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/poster-orlean.jpg"
               alt="Постер New Orlean vs Golden Star"
@@ -70,9 +74,9 @@
               height="294"
             />
             <h3 class="products-title">Постер New Orlean vs Golden Star</h3>
-            <p <h3 class="products-text">Дизайн</p>
+            <p  class="products-text">Дизайн</p>
           </li>
-          <li>
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/rest-seafood.jpg"
               alt="Ресторан Seafood"
@@ -80,9 +84,9 @@
               height="294"
             />
             <h3 class="products-title">Ресторан Seafood</h3>
-            <p <h3 class="products-text">Приложение</p>
+            <p class="products-text">Приложение</p>
           </li>
-          <li>
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/project-prime.jpg"
               alt="Проект Prime"
@@ -90,9 +94,9 @@
               height="294"
             />
             <h3 class="products-title">Проект Prime</h3>
-            <p <h3 class="products-text">Маркетинг</p>
+            <p  class="products-text">Маркетинг</p>
           </li>
-          <li>
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/project-boxes.jpg"
               alt="Проект Boxes"
@@ -100,9 +104,9 @@
               height="294"
             />
             <h3 class="products-title">Проект Boxes</h3>
-            <p <h3 class="products-text">Приложение</p>
+            <p class="products-text">Приложение</p>
           </li>
-          <li>
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/Inspiration-has-no-Borders.jpg"
               alt="Inspiration has no Borders"
@@ -110,9 +114,9 @@
               height="294"
             />
             <h3 class="products-title">Inspiration has no Borders</h3>
-            <p <h3 class="products-text">Веб-сайт</p>
+            <p  class="products-text">Веб-сайт</p>
           </li>
-          <li>
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/book.jpg"
               alt="Издание Limited Edition"
@@ -120,9 +124,9 @@
               height="294"
             />
             <h3 class="products-title">Издание Limited Edition</h3>
-            <p <h3 class="products-text">Дизайн</p>
+            <p  class="products-text">Дизайн</p>
           </li>
-          <li>
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/project-lab.jpg"
               alt="Проект LAB"
@@ -130,9 +134,9 @@
               height="294"
             />
             <h3 class="products-title">Проект LAB</h3>
-            <p <h3 class="products-text">Маркетинг</p>
+            <p class="products-text">Маркетинг</p>
           </li>
-          <li>
+          <li class="item-portfolio">
             <img
               src="./img/portfolio/Growing-Business.jpg"
               alt="Growing Business"
@@ -140,20 +144,26 @@
               height="294"
             />
             <h3 class="products-title">Growing Business</h3>
-            <p <h3 class="products-text"></h3>Приложение</p>
+            <p  class="products-text"></h3>Приложение</p>
           </li>
         </ul>
+
       </section>
       <!-- /Портфолио -->
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo"
-        ><span class="logo-color">Web</span>Studio</a>
-      <address class="address">
-        <a href="#">г. Киев, пр-т Леси Украинки, 26 </a>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
-      </address>
+      <div class="container">
+        <a href="./index.html" class="logo"
+          ><span class="logo-color">Web</span>Studio</a
+        >
+        <address class="address">
+          <a href="#" class="map">г. Киев, пр-т Леси Украинки, 26 </a>
+          <a href="mailto:info@devstudio.com" class="contacts"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
