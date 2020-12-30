@@ -23,7 +23,7 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   padding: 100px 15px;
   margin: auto;
 }
@@ -155,14 +155,10 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-/* .list-no-style.about-flex {
-  padding-left: 15px;
-  padding-right: 15px;
-} */
+
 .about-item {
   background-color: khaki;
-  width: calc((100%-90px) / 4);
-  /* width: 270px; */
+  width: 270px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
