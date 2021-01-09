@@ -5,7 +5,7 @@
   --hover-accent: #2196f3;
   --color-light: #ffffff;
   --color-logo: #000000;
-  --color-backgroun: #2f303a;
+  --color-background: #2f303a;
   --second-background: #f5f4fa;
   --color-border-portfolio: #eeeeee;
 }
@@ -99,7 +99,7 @@ a {
 
 /*=============Лозунг==============*/
 .hero {
-  background: var(--color-backgroun);
+  background: var(--color-background);
   text-align: center;
   min-height: 600px;
   padding-top: 200px;
@@ -242,7 +242,7 @@ a {
 
 /*=============/footer==============*/
 .footer {
-  background: var(--color-backgroun);
+  background: var(--color-background);
 }
 .footer .logo {
   color: var(--color-light);
