@@ -4,6 +4,9 @@
   --fonts-accent-color: #212121;
   --hover-accent: #2196f3;
   --color-light: #ffffff;
+  --color-logo: #000000;
+  --color-backgroun: #2f303a;
+  --second-background: #f5f4fa;
 }
 
 body {
@@ -45,7 +48,7 @@ a {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--color-logo);
 
   margin-right: 90px;
 }
@@ -95,10 +98,8 @@ a {
 
 /*=============Лозунг==============*/
 .hero {
-  background: #2f303a;
+  background: var(--color-backgroun);
   text-align: center;
-  /* border: 2px solid green; */
-  /* test */
   min-height: 600px;
   padding-top: 200px;
   box-sizing: border-box;
@@ -111,7 +112,6 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-light);
-  /* padding-top: 200px; */
   width: 696px;
   min-height: 120px;
   margin: auto;
@@ -160,6 +160,7 @@ a {
 
 .about-item {
   width: calc((100% - 90px) / 4);
+  /*  высчитываем ширину элементов так, чтобы поместилось по 4шт в ряд +маржин 30px, для будущего расширения контента */
   margin-right: 30px;
 }
 .about-item:nth-child(4n) {
@@ -203,7 +204,7 @@ a {
   margin-bottom: 50px;
 }
 .team {
-  background: #f5f4fa;
+  background: var(--second-background);
 
   font-size: 16px;
   line-height: 1.1875;
@@ -240,7 +241,7 @@ a {
 
 /*=============/footer==============*/
 .footer {
-  background: #2f303a;
+  background: var(--color-backgroun);
 }
 .footer .logo {
   color: var(--color-light);
@@ -263,10 +264,6 @@ a {
   color: var(--color-light);
   opacity: 0.6;
 }
-
-/* .footer .container {
-  display: block;
-} */
 
 .footer .container {
   padding: 60px 0px;
@@ -297,7 +294,7 @@ a {
 }
 
 .menu-list {
-  background: #f5f4fa;
+  background: var(--second-background);
   border-radius: 4px;
   padding: 6px 22px;
 }
@@ -349,6 +346,7 @@ a {
 
 .item-portfolio {
   width: calc((100% - 60px) / 3);
+  /*  высчитываем ширину элементов так, чтобы поместилось по 4шт в ряд +маржин 30px, для будущего расширения контента */
   margin-right: 30px;
   margin-bottom: 30px;
 }
