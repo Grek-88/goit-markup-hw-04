@@ -7,6 +7,7 @@
   --color-logo: #000000;
   --color-backgroun: #2f303a;
   --second-background: #f5f4fa;
+  --color-border-portfolio: #eeeeee;
 }
 
 body {
@@ -336,7 +337,7 @@ a {
   margin-right: 24px;
 }
 .item-portfolio {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--color-border-portfolio);
 }
 
 .flex-portfolio {
