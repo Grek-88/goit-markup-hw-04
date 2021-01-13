@@ -8,6 +8,7 @@
   --color-background: #2f303a;
   --second-background: #f5f4fa;
   --color-border-portfolio: #eeeeee;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -119,7 +120,7 @@ a {
   background: var(--color-background);
   text-align: center;
   min-height: 600px;
-  max-width: 1600px;
+  min-width: 1600px;
   padding-top: 200px;
   margin: 0 auto;
 
@@ -305,7 +306,7 @@ a {
 }
 
 .icon-team {
-  fill: var(--primary-font-color);
+  fill: var(--icon-color);
   width: 20px;
   height: 20px;
 }
@@ -318,6 +319,49 @@ a {
   fill: var(--color-light);
 }
 /*=============/Наша команда==============*/
+
+/*=============Постоянные клиенты==============*/
+
+.clients-flex {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0;
+  margin: 0;
+}
+.clients:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients {
+  width: 170px;
+  height: 90px;
+}
+
+.icon-clients {
+  fill: var(--icon-color);
+}
+
+.clients-item {
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid var(--hover-accent);
+}
+.clients-item:hover .icon-clients {
+  fill: var(--hover-accent);
+}
+.clients-item:focus .icon-clients {
+  fill: var(--hover-accent);
+}
+/*=============/Постоянные клиенты==============*/
 
 /*=============/footer==============*/
 .footer {
@@ -355,6 +399,14 @@ a {
 }
 .contacts {
   margin-top: 10px;
+}
+
+.join {
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--color-light);
 }
 
 /*=============/footer==============*/
