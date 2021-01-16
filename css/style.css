@@ -8,7 +8,10 @@
   --color-background: #2f303a;
   --second-background: #f5f4fa;
   --color-border-portfolio: #eeeeee;
+<<<<<<< HEAD
   --icon-color: #afb1b8;
+=======
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 }
 
 body {
@@ -67,12 +70,15 @@ a {
   color: var(--fonts-accent-color);
 }
 
+<<<<<<< HEAD
 .address-nav .navigation {
   display: flex;
   color: var(--primary-font-color);
   align-items: center;
 }
 
+=======
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 .navigation:hover,
 .navigation:focus,
 .list-no-style .current {
@@ -88,7 +94,10 @@ a {
 .site-nav,
 .address-nav {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
+=======
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 }
 
 .site-nav .item:not(:first-child) {
@@ -100,6 +109,7 @@ a {
 .address-nav .item:not(:first-child) {
   margin-left: 50px;
 }
+<<<<<<< HEAD
 
 .icon {
   margin-right: 10px;
@@ -113,6 +123,11 @@ a {
   fill: var(--hover-accent);
 }
 
+=======
+.main-nav {
+  align-items: center;
+}
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 /*=============/Header==============*/
 
 /*=============Лозунг==============*/
@@ -120,6 +135,7 @@ a {
   background: var(--color-background);
   text-align: center;
   min-height: 600px;
+<<<<<<< HEAD
   min-width: 1600px;
   padding-top: 200px;
   margin: 0 auto;
@@ -134,6 +150,11 @@ a {
   background-position: center;
 }
 
+=======
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 .hero-title {
   margin: 0;
   font-weight: 900;
@@ -197,6 +218,7 @@ a {
   margin-right: 0;
 }
 
+<<<<<<< HEAD
 .about-icon-bg {
   height: 120px;
   background: #f5f4fa;
@@ -208,6 +230,8 @@ a {
   justify-content: center;
 }
 
+=======
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 /*=============/About==============*/
 
 /*=============Деятельность==============*/
@@ -262,7 +286,11 @@ a {
 .team .profession {
   color: var(--primary-font-color);
   margin: 0;
+<<<<<<< HEAD
   margin-bottom: 16px;
+=======
+  margin-bottom: 30px;
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
   text-align: center;
 }
 
@@ -278,6 +306,7 @@ a {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+<<<<<<< HEAD
 
 .team-icon-flex {
   display: flex;
@@ -363,6 +392,10 @@ a {
 }
 /*=============/Постоянные клиенты==============*/
 
+=======
+/*=============/Наша команда==============*/
+
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 /*=============/footer==============*/
 .footer {
   background: var(--color-background);
@@ -401,6 +434,7 @@ a {
   margin-top: 10px;
 }
 
+<<<<<<< HEAD
 .join {
   line-height: 1.1428;
   letter-spacing: 0.03em;
@@ -409,6 +443,8 @@ a {
   color: var(--color-light);
 }
 
+=======
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 /*=============/footer==============*/
 
 /*=============Portfolio.html==============*/
@@ -417,7 +453,10 @@ a {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+<<<<<<< HEAD
   color: var(--fonts-accent-color);
+=======
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
 
   display: flex;
   justify-content: center;
@@ -426,6 +465,10 @@ a {
 }
 
 .menu-list {
+<<<<<<< HEAD
+=======
+  color: var(--fonts-accent-color);
+>>>>>>> 9d87fd7fc513d93626f0b3daa78a5dafead5b235
   background: var(--second-background);
   border-radius: 4px;
   padding: 6px 22px;
