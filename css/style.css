@@ -203,28 +203,15 @@ hr {
   margin-right: 0;
 }
 
-.about-item::before {
-  content: "";
-  display: block;
+.about-icon-bg {
   height: 120px;
-  background-color: #f5f4fa;
+  background: #f5f4fa;
   border-radius: 4px;
-  background-repeat: no-repeat;
-  background-size: 70px;
-  background-position: center;
-}
+  margin-bottom: 30px;
 
-.icon-group::before {
-  background-image: url("../img/group.svg");
-}
-.icon-clock::before {
-  background-image: url("../img/clock.svg");
-}
-.icon-diagram::before {
-  background-image: url("../img/diagram.svg");
-}
-.icon-astronaut::before {
-  background-image: url("../img/astronaut.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*=============/About==============*/
@@ -513,7 +500,7 @@ hr {
   letter-spacing: 0.06em;
   color: var(--fonts-accent-color);
 
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
   margin-left: 24px;
   margin-right: 24px;
@@ -541,8 +528,17 @@ hr {
   /*  высчитываем ширину элементов так, чтобы поместилось по 3шт в ряд +маржин 30px, для будущего расширения контента */
   margin-right: 30px;
   margin-bottom: 30px;
+}
 
-  border: 1px solid var(--color-border-portfolio);
+.item-portfolio-border {
+  padding-top: 20px;
+  border-left: 1px solid var(--color-border-portfolio);
+  border-right: 1px solid var(--color-border-portfolio);
+  border-bottom: 1px solid var(--color-border-portfolio);
+}
+
+.item-portfolio img {
+  display: block;
 }
 
 .item-portfolio:nth-child(3n) {
